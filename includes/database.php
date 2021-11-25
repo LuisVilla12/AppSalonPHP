@@ -1,9 +1,9 @@
 <?
-    $db=mysqli_connect('localhost','root','qazqazqaz9','Appsalon');
+    $db=mysqli_connect('localhost','root','qazqazqaz9','appsalon',3306);
     // Valida si se conecto
     if(!$db){
-        echo "Error en la conexion";
+        echo "Error No se conecto";
     }else{
-        echo "Conexion correcta";
-    }
+		echo "Exito";
+	}
 ?>

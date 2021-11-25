@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>App Salón de Belleza</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
+
 <body>
 
     <div class="contenedor-estetica">
@@ -34,32 +36,16 @@
 
                 <form class="formulario">
                     <div class="campo">
-                        <label
-                            for="nombre"    
-                        >Nombre</label>
-                        <input 
-                            id="nombre"
-                            type="text"
-                            placeholder="Tu Nombre"
-                        >
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" placeholder="Tu Nombre">
                     </div>
                     <div class="campo">
-                        <label
-                            for="fecha"    
-                        >Fecha</label>
-                        <input 
-                            id="fecha"
-                            type="date"
-                        >
+                        <label for="fecha">Fecha</label>
+                        <input id="fecha" type="date">
                     </div>
                     <div class="campo">
-                        <label
-                            for="hora"    
-                        >Hora</label>
-                        <input 
-                            id="hora"
-                            type="time"
-                        >
+                        <label for="hora">Hora</label>
+                        <input id="hora" type="time">
                     </div>
                 </form>
 
@@ -69,15 +55,11 @@
             </div>
 
             <div class="paginacion">
-                <button
-                    id="anterior"
-                >
-                   &laquo; Anterior
+                <button id="anterior">
+                    &laquo; Anterior
                 </button>
 
-                <button
-                    id="siguiente"
-                >
+                <button id="siguiente">
                     Siguiente &raquo;
                 </button>
             </div>
@@ -86,4 +68,5 @@
 
     <script src="build/js/bundle.min.js"></script>
 </body>
+
 </html>
